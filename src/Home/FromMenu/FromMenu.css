@@ -1,0 +1,11 @@
+.banner-bg {
+    /* background-image: url('../../assets/home/banner.jpg'); */
+    background: url('../../assets/home/featured.jpg'),linear-gradient(0deg, gray 0%, #151515 100%);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-blend-mode: overlay;
+  background-attachment: fixed;
+}
+
+/* background: linear-gradient(0deg, #151515 0%, #151515 100%), url(<path-to-image>), lightgray 50% / cover no-repeat; */
