@@ -6,23 +6,23 @@ const Navbar = () => {
 
     const nonUserNav = <>
         <li className='uppercase text-md font-bold text-black lg:text-white py-2 lg:py-0'>
-            <Link to="/" > Home </Link> </li>
+            <Link to="/" className='hover:text-[#EEFF25] ' > Home </Link> </li>
 
-            <li className='uppercase text-md font-bold text-black lg:text-white py-2 lg:py-0'>
-            <Link to="/" > Contact Us</Link> </li>
+        <li className='uppercase text-md font-bold text-black lg:text-white py-2 lg:py-0'>
+            <Link to="/contact" className='hover:text-[#EEFF25]  ' > Contact Us</Link> </li>
 
-            <li className='uppercase text-md font-bold text-black lg:text-white py-2 lg:py-0'>
-            <Link to="/" > Our Shops </Link> </li>
+        <li className='uppercase text-md font-bold text-black lg:text-white py-2 lg:py-0'>
+            <Link to="/shops" className='hover:text-[#EEFF25] ' > Our Shops </Link> </li>
 
-            <li className='uppercase text-md font-bold text-black lg:text-white py-2 lg:py-0'>
-            <Link to="/" >See Menu</Link> </li>
+        <li className='uppercase text-md font-bold text-black lg:text-white py-2 lg:py-0'>
+            <Link to="/menu" className='hover:text-[#EEFF25] ' > See Menu</Link> </li>
 
-            <li className='uppercase text-md font-bold text-black lg:text-white py-2 lg:py-0'>
-            <Link to="/" > Order Online </Link> </li>
+        <li className='uppercase text-md font-bold text-black lg:text-white py-2 lg:py-0'>
+            <Link to="/order" className='hover:text-[#EEFF25] ' > Order Online </Link> </li>
     </>
 
     const userNav = <>
-        <li className='uppercase text-md font-bold text-white'> <Link>Home </Link></li>
+        <li className='uppercase text-md font-bold text-white'> <Link to='/'>Home </Link></li>
 
         <li className='uppercase text-md font-bold text-white'>
             <Link to="/" > Contact Us</Link> </li>
